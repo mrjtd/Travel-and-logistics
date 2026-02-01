@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoyageFlow Logistics | Seamless Travel & Logistics Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-globe-americas"></i>
+                <span>VoyageFlow</span>Logistics
+            </a>
+            
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li class="dropdown">
+                    <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#corporate-travel"><i class="fas fa-briefcase"></i> Corporate Travel</a>
+                        <a href="#logistics"><i class="fas fa-shipping-fast"></i> Logistics</a>
+                        <a href="#leisure"><i class="fas fa-umbrella-beach"></i> Leisure Travel</a>
+                    </div>
+                </li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#tracking">Tracking</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="nav-cta">
+                    <a href="#quote" class="btn-primary">Get Quote</a>
+                </li>
+                <li class="client-portal">
+                    <a href="#login"><i class="fas fa-user-circle"></i> Client Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Global Travel & Logistics Solutions</h1>
+                <p class="hero-subtitle">Seamlessly connecting your business and leisure needs across 150+ countries with precision and care.</p>
+                
+                <div class="hero-cta">
+                    <a href="#quote" class="btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Get Instant Quote
+                    </a>
+                    <a href="#tracking" class="btn-secondary btn-large">
+                        <i class="fas fa-map-marker-alt"></i> Track Shipment
+                    </a>
+                </div>
+                
+                <!-- Quick Stats -->
+                <div class="quick-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Corporate Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>150+</h3>
+                        <p>Countries Served</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98.7%</h3>
+                        <p>On-Time Delivery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive solutions for all your travel and logistics needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" id="corporate-travel">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Corporate Travel</h3>
+                    <p>End-to-end business travel management with expense tracking and policy compliance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Travel Policy Development</li>
+                        <li><i class="fas fa-check-circle"></i> Group Event Planning</li>
+                        <li><i class="fas fa-check-circle"></i> Emergency Support</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" id="logistics">
+                    <div class="service-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Logistics & Freight</h3>
+                    <p>Air, sea, and land freight solutions with real-time tracking and customs clearance.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Global Freight</li>
+                        <li><i class="fas fa-check-circle"></i> Customs Clearance</li>
+                        <li><i class="fas fa-check-circle"></i> Warehousing</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="service-card" id="leisure">
+                    <div class="service-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Leisure Travel</h3>
+                    <p>Custom vacation planning, luxury travel experiences, and group family packages.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Luxury Travel</li>
+                        <li><i class="fas fa-check-circle"></i> Family Vacations</li>
+                        <li><i class="fas fa-check-circle"></i> Visa Assistance</li>
+                    </ul>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracking Section -->
+    <section class="tracking-section" id="tracking">
+        <div class="container">
+            <div class="tracking-container">
+                <div class="tracking-info">
+                    <h2>Track Your Shipment</h2>
+                    <p>Enter your tracking number to get real-time updates on your shipment's location and estimated delivery time.</p>
+                    
+                    <div class="tracking-form">
+                        <div class="form-group">
+                            <input type="text" id="trackingNumber" placeholder="Enter tracking number (e.g., VFL123456789)">
+                            <button id="trackBtn" class="btn-primary">
+                                <i class="fas fa-search"></i> Track
+                            </button>
+                        </div>
+                        <p class="form-note">Need help? Call our support: +1-800-VOYAGE</p>
+                    </div>
+                    
+                    <div class="tracking-result" id="trackingResult">
+                        <!-- Dynamic content will be inserted here -->
+                    </div>
+                </div>
+                
+                <div class="tracking-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-globe-americas"></i>
+                        <p>Live Tracking Map</p>
+                        <div class="map-points">
+                            <div class="point" style="top: 30%; left: 20%;">✈️</div>
+                            <div class="point" style="top: 50%; left: 50%;">🚢</div>
+                            <div class="point" style="top: 70%; left: 80%;">🚚</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Calculator -->
+    <section class="quote-section" id="quote">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Instant Quote</h2>
+                <p>Fill in your requirements for a customized quote</p>
+            </div>
+            
+            <div class="quote-calculator">
+                <div class="quote-tabs">
+                    <button class="quote-tab active" data-service="travel">Travel Services</button>
+                    <button class="quote-tab" data-service="freight">Freight Services</button>
+                    <button class="quote-tab" data-service="warehouse">Warehousing</button>
+                </div>
+                
+                <form id="quoteForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="serviceType">Service Type</label>
+                            <select id="serviceType">
+                                <option value="">Select Service</option>
+                                <option value="business-travel">Business Travel</option>
+                                <option value="vacation">Vacation Package</option>
+                                <option value="air-freight">Air Freight</option>
+                                <option value="sea-freight">Sea Freight</option>
+                                <option value="storage">Storage</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="origin">Origin</label>
+                            <input type="text" id="origin" placeholder="City, Country">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <input type="text" id="destination" placeholder="City, Country">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="weight">Weight/Dimensions</label>
+                            <input type="text" id="weight" placeholder="e.g., 100kg or 2 passengers">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="your@email.com">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary btn-large">
+                        <i class="fas fa-calculator"></i> Calculate Quote
+                    </button>
+                </form>
+                
+                <div class="quote-result" id="quoteResult">
+                    <!-- Quote will appear here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="industries" id="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry Solutions</h2>
+                <p>Specialized logistics and travel solutions for various industries</p>
+            </div>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <i class="fas fa-pills"></i>
+                    <h4>Pharmaceuticals</h4>
+                    <p>Temperature-controlled logistics</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h4>Technology</h4>
+                    <p>Secure tech equipment transport</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h4>Retail & Fashion</h4>
+                    <p>Just-in-time inventory solutions</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-gas-pump"></i>
+                    <h4>Oil & Gas</h4>
+                    <p>Specialized equipment handling</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-film"></i>
+                    <h4>Entertainment</h4>
+                    <p>Event travel & equipment logistics</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h4>Healthcare</h4>
+                    <p>Medical equipment & staff travel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-globe-americas"></i>
+                        <span>VoyageFlow</span>Logistics
+                    </a>
+                    <p>Providing seamless travel and logistics solutions since 2005. Connecting businesses and people across the globe.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#tracking">Tracking</a></li>
+                        <li><a href="#quote">Get Quote</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Logistics Ave, Suite 500, New York, NY 10001</li>
+                        <li><i class="fas fa-phone"></i> +1 (800) VFG-LOGI</li>
+                        <li><i class="fas fa-envelope"></i> info@voyageflow.com</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Emergency Support</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates and industry insights</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 VoyageFlow Logistics. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <div class="certifications">
+                    <span class="cert-badge">IATA Certified</span>
+                    <span class="cert-badge">FIATA Member</span>
+                    <span class="cert-badge">ISO 9001:2015</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
