@@ -1,2 +1,2 @@
 # Travel-and-logistics
-This website is a travel and logistics 
+This website is for travel and logistics function.
